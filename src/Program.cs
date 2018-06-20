@@ -16,7 +16,7 @@ namespace IRSACA
 
             Configuration = builder.Build();
 
-            string option = Configuration["GenerateOption"];
+            string option = Configuration["Project:GenerateOption"];
             Console.WriteLine(option);
             if (option == "Form")
             {
