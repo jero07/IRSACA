@@ -6,6 +6,9 @@
 !.vscode/extensions.json
 .history
 
+### VisualStudio ###
+.vs/*
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
