@@ -108,5 +108,8 @@ namespace IRSACA {
             return acals;
         }
 
+        public List<ACAEmployeeDetail> GetPayrollEmp(){
+            return null;
+        }
     }
 }
