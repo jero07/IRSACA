@@ -147,7 +147,6 @@ namespace IRSACA
     public class ACA1094Count
     {
         public string total { get; set; } 
-
         public string janft { get; set; }
         public string febft { get; set; }
         public string marft { get; set; }
