@@ -40,14 +40,14 @@ namespace IRSACA
     public class ACA1095rows
     {
         //
-        public string payroll { get; set; }
+        public string EmployeeId { get; set; }
         public string Name { get; set; }
         public string Company { get; set; } 
         public string bday { get; set; }
         public string empltype { get; set; }
         public string relation { get; set; }
         public string year { get; set; }
-        public string Fileno { get; set; }
+        public string ss { get; set; } 
         public ACA1095Cmonths formdata { get; set; }
     }
 
@@ -119,10 +119,10 @@ namespace IRSACA
 
     public class ACAEmployeeDetail
     {
+        public string EmployeeId { get; set; }
         public string Name { get; set; }
         public string Fname { get; set; }
         public string Lname { get; set; }
-        public string Payroll { get; set; }
         public string Employeetype { get; set; }
         public string ssn { get; set; }
         public string address { get; set; }
@@ -132,18 +132,7 @@ namespace IRSACA
         public string zipcode { get; set; }
 
     }
-
-    public class ACAException
-    {
-        public string Name { get; set; }
-        public string LocalName { get; set; }
-        public string NamespaceURI { get; set; }
-        public string LineNumber { get; set; }
-        public string LinePosition { get; set; }
-        public string Message { get; set; } 
-
-    }
-
+ 
     public class ACA1094Count
     {
         public string total { get; set; } 
@@ -174,6 +163,16 @@ namespace IRSACA
         public string decall { get; set; }
     }
 
+    public class ACAException
+    {
+        public string Name { get; set; }
+        public string LocalName { get; set; }
+        public string NamespaceURI { get; set; }
+        public string LineNumber { get; set; }
+        public string LinePosition { get; set; }
+        public string Message { get; set; } 
+
+    }
     public class ACAUniqReceipt
     {
         public string UniqueReceipt { get; set; }
